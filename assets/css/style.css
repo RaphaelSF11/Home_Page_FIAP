@@ -6,43 +6,55 @@
 }
 
 body {
-    font-family: "poppins", sans-serif;
+    font-family: 'montserrat', sans-serif;
     background-image: url(/assets/img/background-page.png);
-    background-size: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     color: rgb(166, 186, 198);
+    height: 100vh;
+    overflow: hidden;
+
 
 }
 
 /*NAV BAR*/
 
-.logo-fiap{
-    width: 80px;
-    height: 40px;
+.logo img {
+    height: 45px;
+    margin-left: 12px;
 
+}
+
+.logo:hover {
+    cursor: pointer;
 }
 
 nav {
     display: flex;
-    margin: 15px;
-    justify-content: space-evenly;
+    margin: 20px;
+    justify-content: space-between;
     align-items: center;
+    padding-bottom: 150px;
+
 }
 
-nav ul  {
+nav ul {
     display: flex;
     list-style: none;
-    align-items: center;
-    
+
 }
 
 nav ul li a {
     text-decoration: none;
-    color: rgb(166, 186, 198);
-    padding: 15px;
+    color: #a6bac6;
+    margin: 5px 20px;
     width: 5px;
     font-size: 13px;
+    font-weight: 500;
 
 }
+
 li a:hover {
     color: #ed145b;
     transition: 0.5s;
@@ -51,5 +63,128 @@ li a:hover {
 
 span {
     color: #ed145b;
+    font-size: 12px;
+    padding-left: 300px;
 
+
+}
+
+span:hover {
+    color: #a6bac6;
+    transition: 0.5s;
+
+
+}
+
+.icon-search {
+    margin-left: 120px;
+}
+
+.icon-search:hover {
+    cursor: pointer;
+
+}
+
+/* CONTEÚDO DO SITE */
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 80px;
+
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 300;
+
+}
+
+.text-principal {
+    font-size: 55px;
+    font-weight: 600;
+    margin-top: 35px;
+    color: #ed145b;
+
+}
+
+.text-sub {
+    font-size: 30px;
+    font-weight: 300;
+    color: #ed145b;
+
+}
+
+.text-descrição {
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 35px;
+
+}
+
+.btn-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+
+
+}
+
+.btn-saiba-mais {
+    color: #ed145b;
+    font-size: 13px;
+    font-family: 'montserrat', sans-serif;
+    font-weight: 700;
+    background: none;
+    border: 2px solid;
+    padding: 10px 60px;
+    cursor: pointer;
+}
+
+.btn-saiba-mais:hover {
+    color: #3b0a1a;
+    background-color: #ed145b;
+    border-color: #ed145b;
+    transition: 0.5s;
+}
+
+.btn-graduacao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 215px;
+
+
+}
+
+.btn-anterior {
+
+    background: none;
+    border: none;
+    margin-right: 80px;
+    color: #ed145b;
+    cursor: pointer;
+    font-family: 'montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.list {
+    margin: 10px;
+
+}
+
+.btn-proximo {
+
+    background: none;
+    border: none;
+    margin-left: 50px;
+    color: #ed145b;
+    cursor: pointer;
+    font-family: 'montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 13px;
 }
