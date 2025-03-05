@@ -155,7 +155,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 215px;
+    padding-top: 210px;
 
 
 }
@@ -173,7 +173,13 @@ h1 {
 }
 
 .list {
-    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-options {
+    margin: 0px 23px;
 
 }
 
