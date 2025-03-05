@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: 'montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     background-image: url(/assets/img/background-page.png);
     background-size: cover;
     background-position: center;
@@ -136,7 +136,7 @@ h1 {
 .btn-saiba-mais {
     color: #ed145b;
     font-size: 13px;
-    font-family: 'montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     background: none;
     border: 2px solid;
@@ -167,7 +167,7 @@ h1 {
     margin-right: 80px;
     color: #ed145b;
     cursor: pointer;
-    font-family: 'montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     font-size: 13px;
 }
@@ -190,7 +190,7 @@ h1 {
     margin-left: 50px;
     color: #ed145b;
     cursor: pointer;
-    font-family: 'montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     font-size: 13px;
 }
